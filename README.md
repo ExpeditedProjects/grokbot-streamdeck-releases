@@ -1,8 +1,12 @@
 # Voice Chat for Grok Bot
 
+![Voice Chat for Grok Bot](images/thumbnail.png)
+
 Start a voice chat with a Grok Bot bot from a Stream Deck key. Tap the key and the call starts; tap it again to hang up. While the call is up, the key shows the bot's avatar, animated.
 
 Each key is tied to one bot, so you can put your most-used bots on their own keys.
+
+![A Stream Deck with one key per bot, one of them on a call](images/gallery-1-keys.png)
 
 Grok Bot has no way to start a voice chat from outside the app, so this plugin includes a small helper app, **Grok Voice**, that presses Grok Bot's "Start voice chat" button for you through macOS Accessibility. [How it works](#how-it-works) has the details, including what that permission allows.
 
@@ -34,7 +38,11 @@ Grok Voice is signed with a Developer ID and notarized by Apple. If macOS asks w
 
 Grok Bot comes to the front on the bot you picked and the call starts.
 
+![Setting up a key: drag the action onto a key, pick a bot, allow Accessibility](images/gallery-3-setup.png)
+
 ## Using the keys
+
+![Key states: ready, connecting and on a call](images/gallery-2-states.png)
 
 - **What the key shows.** The bot's avatar when idle, a slow pulse while a call starts or ends, and the avatar animating while the call is up. The avatar is drawn the first time a key uses that bot, so a brand-new key may show a plain chat bubble for a moment.
 - **Tapping during a call** hangs up, whichever key you tap. One call can be up at a time, as in Grok Bot itself.
