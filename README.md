@@ -1,4 +1,4 @@
-# Grok Bot for Stream Deck
+# Voice Chat for Grok Bot
 
 Start a voice chat with a Grok Bot bot from a Stream Deck key. Tap the key and the call starts; tap it again to hang up. While the call is up, the key shows the bot's avatar, animated.
 
@@ -21,13 +21,13 @@ Grok Voice's status window (see [Troubleshooting](#troubleshooting)) shows the v
 ## Install
 
 1. Download [**com.expeditedprojects.grokbot.streamDeckPlugin**](https://github.com/ExpeditedProjects/grokbot-streamdeck-releases/releases/latest/download/com.expeditedprojects.grokbot.streamDeckPlugin) from the [latest release](https://github.com/ExpeditedProjects/grokbot-streamdeck-releases/releases/latest).
-2. Double-click it. Stream Deck asks to install the plugin; say yes, and **Grok Bot** appears in Stream Deck's action list.
+2. Double-click it. Stream Deck asks to install the plugin; say yes, and **Voice Chat for Grok Bot** appears in Stream Deck's action list.
 
 Grok Voice is signed with a Developer ID and notarized by Apple. If macOS asks whether to open it the first time because it was downloaded from the internet, click **Open**.
 
 ## Set up a key
 
-1. In Stream Deck, drag **Grok Bot → Talk to Grok Bot** onto a key.
+1. In Stream Deck, drag **Voice Chat for Grok Bot → Talk to Grok Bot** onto a key.
 2. Pick a bot in the **Bot** dropdown. A new key starts on the first bot in the list, and your choice saves as soon as you pick it.
 3. The first time, the settings panel says Grok Voice needs Accessibility. Click **Allow Accessibility…**, then turn on **Grok Voice** in System Settings → Privacy & Security → Accessibility. Within a few seconds the panel says "Grok Voice is ready". You only do this once, not per key.
 4. Tap the key to start a voice chat. Tap again to hang up.
@@ -69,7 +69,7 @@ Logs:
 
 ## Uninstall
 
-1. In Stream Deck, open Settings → Plugins, select **Grok Bot**, and uninstall it.
+1. In Stream Deck, open Settings → Plugins, select **Voice Chat for Grok Bot**, and uninstall it.
 2. In System Settings → Privacy & Security → Accessibility, select **Grok Voice** and remove it with **–**.
 3. Delete what's left in your Library:
 
