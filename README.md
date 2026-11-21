@@ -11,7 +11,7 @@ You need macOS 13 or later (Apple silicon or Intel), the [Stream Deck app](https
 1. Download [**com.expeditedprojects.grokbot.streamDeckPlugin**](https://github.com/ExpeditedProjects/grokbot-streamdeck-releases/releases/latest/download/com.expeditedprojects.grokbot.streamDeckPlugin).
 2. Double-click it and confirm the install in Stream Deck.
 3. In Stream Deck's action list, open **Voice Chat for Grok Bot** and drag **Talk to Grok Bot** onto a key.
-4. Pick a bot in the **Bot** dropdown.
+4. Pick a bot in the **Bot** dropdown. It groups your bots the way Grok Bot's sidebar does: Pinned, your sections, Unassigned, then Hidden.
 5. The first time, click **Allow Accessibility…** in the key's settings, then turn on **Grok Voice** in System Settings > Privacy & Security > Accessibility. You only do this once for all your keys.
 6. Tap the key to start a call. Tap it again to hang up.
 
@@ -24,6 +24,8 @@ If macOS asks whether to open Grok Voice the first time, click **Open**. Grok Vo
 ![A Stream Deck with one key per bot, one of them on a call](images/gallery-1-keys.png)
 
 Each key is set to one bot, so your most-used bots can each have their own key. When idle, the key shows the bot's avatar. It pulses while a call starts or ends, and the avatar animates during the call. A new key may show a plain chat bubble for a moment while the avatar is drawn.
+
+If you change a bot's avatar in Grok Bot, its keys update within about half a minute. Keys draw the avatar's shape and color, so a bot with a custom picture keeps its shape on the key.
 
 ![Key states: ready, connecting and on a call](images/gallery-2-states.png)
 
